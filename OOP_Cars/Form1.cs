@@ -27,9 +27,10 @@ namespace OOP_Cars
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show(comboBox1.SelectedItem);
+            string valg = comboBox1.SelectedItem.ToString();
+            MessageBox.Show(valg + " " + (comboBox1.SelectedIndex + 1));
         }
 
         public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
