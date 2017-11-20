@@ -4,7 +4,7 @@ Class structure:
 
 Class Employees
 	string name
-	float meetTime
+	double meetTime
 	int ID
 	
 

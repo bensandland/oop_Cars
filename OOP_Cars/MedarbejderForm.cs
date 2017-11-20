@@ -12,13 +12,15 @@ namespace OOP_Cars
 {
     public partial class MedarbejderForm : Form
     {
+        Form1 frm1;
+
         public MedarbejderForm()
         {
             InitializeComponent();
-        }
 
-        private void MedarbejderForm_Load(object sender, EventArgs e)
-        {
+            MessageBox.Show(frm1.selectedName);
+
+            //EmployeeName.Text = ;
 
         }
     }

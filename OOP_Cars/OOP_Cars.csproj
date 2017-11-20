@@ -45,10 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assignments.cs" />
+    <Compile Include="Assignment.cs" />
     <Compile Include="Calender.cs" />
     <Compile Include="Cars.cs" />
-    <Compile Include="Employees.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
