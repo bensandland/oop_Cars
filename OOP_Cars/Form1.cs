@@ -21,5 +21,10 @@ namespace OOP_Cars
         {
 
         }
+
+        public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program emp = new Program();
+        }
     }
 }
