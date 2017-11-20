@@ -16,9 +16,6 @@ namespace OOP_Cars
         [STAThread]
         public static void Main()
         {
-            Employees emp1 = new Employees(1, "Kurt", 16.45);
-
-            
             
 
             Application.EnableVisualStyles();

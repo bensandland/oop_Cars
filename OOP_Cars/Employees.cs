@@ -12,12 +12,18 @@ namespace OOP_Cars
         string name;
         double meetTime;
         Assignments assignment;
+                
 
         public Employees(int id, string name, double meetTime)
         {
             ID = id;
             this.name = name;
             this.meetTime = meetTime;
+        }
+        
+        public string GetName()
+        {
+            return name;
         }
 
         public int GetAssignID()
