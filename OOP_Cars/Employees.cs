@@ -20,6 +20,11 @@ namespace OOP_Cars
             this.meetTime = meetTime;
         }
 
+        public int GetAssignID()
+        {
+            return assignment.GetEmpID();
+        }
+
         public int GetEmpID()
         {
             return ID;
