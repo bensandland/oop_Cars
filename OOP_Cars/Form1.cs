@@ -12,6 +12,7 @@ namespace OOP_Cars
 {
     public partial class Form1 : Form
     {
+        Program pro;
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +25,8 @@ namespace OOP_Cars
 
         public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program emp = new Program();
+            int id = pro.EmpIDLengh();
+            
         }
     }
 }
