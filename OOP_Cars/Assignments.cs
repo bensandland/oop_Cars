@@ -9,8 +9,9 @@ namespace OOP_Cars
     public class Assignments
     {
         int empID;
+        Employees employee;
         string assName;
-        float estTime;
+        double estTime;
 
         public int GetID()
         {
@@ -22,9 +23,20 @@ namespace OOP_Cars
             return assName;
         }
 
-        public float GetEstTime()
+        public double GetEstTime()
         {
             return estTime;
+        }
+
+        public int GetEmpID()
+        {
+            return employee.GetEmpID();
+        }
+
+        public Assignments(string assName, double estTime)
+        {
+            this.assName = assName;
+            this.estTime = estTime;
         }
     }
 }

@@ -10,14 +10,19 @@ namespace OOP_Cars
     {
         int ID;
         string name;
-        float meetTime;
+        double meetTime;
         Assignments assignment;
 
-        public Employees(int iD, string name, float meetTime)
+        public Employees(int id, string name, double meetTime)
         {
-            ID = iD;
+            ID = id;
             this.name = name;
             this.meetTime = meetTime;
+        }
+
+        public int GetEmpID()
+        {
+            return ID;
         }
     }
 }
